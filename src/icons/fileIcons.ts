@@ -623,6 +623,7 @@ export const fileIcons: FileIcons = {
       fileNames: [
         '.gitignore',
         '.git-blame-ignore',
+        '.git-blame-ignore-revs',
         '.gitignore-global',
         '.gitignore_global',
         '.gitconfig',
@@ -1306,7 +1307,11 @@ export const fileIcons: FileIcons = {
     },
     {
       name: 'conduct',
-      fileNames: ['code_of_conduct.md', 'code_of_conduct.txt'],
+      fileNames: [
+        'code_of_conduct.md',
+        'code_of_conduct.txt',
+        'code_of_conduct',
+      ],
     },
     { name: 'watchman', fileNames: ['.watchmanconfig'] },
     { name: 'aurelia', fileNames: ['aurelia.json'] },
